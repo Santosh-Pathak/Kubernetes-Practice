@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+
+metadata:
+  name: python-app
+
+spec:
+  containers:
+    - name: python-app
+      image: santoshpathak7456/python-app
+      ports:
+        - containerPort: 8081
